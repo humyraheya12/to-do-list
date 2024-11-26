@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>To-Do-List</title>
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+   
+    <div class="tub bg-gradient-to-r from-blue-950 to-purple-900 w-screen h-screen p-2.5">
+      
+        <div class="todo-app font-serif font-bold bg-white w-full max-w-lg rounded-lg mt-24 m-auto p-12 space-y-2">
+        
+            <h2 class="flex  text-xl">
+            To-Do-List <img class="w-7 ml-3" src="images/icon.png" alt="">
+        </h2>
+    
+        <div class="flex items-center justify-between pl-5 bg-slate-300 rounded-full">
+        <!-- <input class="rounded-full w-full pr-20 bg-transparent" placeholder="Enter a task..." /> -->
+         <input type="text" class="bg-transparent flex-1 w-full border-none outline-none" placeholder="Enter a task..." >
+            <button class="btn btn-active btn-neutral bg-orange-600 text-white rounded-full p-5 border-none text-center flex items-center">
+                Add
+            </button>
+        </div>
+        <ul class="space-y-3 cursor-pointer font-normal text-xl">
+            <!-- Single task -->
+             <!-- <li class="single-task flex items-center space-x-2 cursor-pointer">
+                 <div class="relative w-4 h-4">  -->
+                    <!-- Unchecked state -->
+                      <!-- <img src="images/unchecked.png" alt="Unchecked" class=" unchecked w-5 h-5"> -->
+                    <!-- Checked state -->
+                      <!-- <img src="images/checked.png" alt="Checked" class="checked w-5 h-5">
+                </div>
+                <span class="task-text"></span>
+            </li>  -->
+        </ul> 
+        
+    </div>
+    </div>
+        
+    </body>
+      <script src="js/list.js"></script>
+      <!-- <script src="js/copy.js"></script> -->
+    </html>
