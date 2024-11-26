@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         // creat a task item
         const taskItem = document.createElement('li');
-        taskItem.className = 'single-task flex items-center space-x-2 cursor-pointer';
+        taskItem.className = 'single-task flex items-center justify-between space-x-3 p-2 bg-transparent hover:bg-slate-100 hover:rounded-full cursor-pointer';
         // create task text
         const taskTextElement = document.createElement('span');
-        taskTextElement.className = 'task-text font- normal text-xl';
+        taskTextElement.className = 'task-text font- normal text-xl flex-1';
         taskTextElement.textContent = taskText;
         // creat uncheckbox
         const uncheckedIcon = document.createElement('img');
